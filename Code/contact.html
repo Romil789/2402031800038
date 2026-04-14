@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🛂 Contact</title>
+    <link rel="stylesheet" href="Contac.css" >
+</head>
+<body>
+
+
+    <nav> 
+        <a href="index.html">🏠 Home</a>
+        <a href="about.html">🤲 About Us</a>
+        <a href="contact.html">🛂 Contact</a>
+    </nav>
+
+    <section class="About" >
+            
+            <div class="form-container">
+                <h2>Travel Inquiry Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile Number</label>
+                        <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div class="radio-group">
+                            <label><input type="radio" name="gender" value="Male" required> Male</label>
+                            <label><input type="radio" name="gender" value="Female" required> Female</label>
+                            <label><input type="radio" name="gender" value="Other" required> Other</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Select Service</label>
+                        <select id="service" name="service" required>
+                            <option value="None">Select Where you Go</option>
+                            <option value="France">France</option>
+                            <option value="Spain">Spain</option>
+                            <option value="United States">United States</option>
+                            <option value="Italy">Italy</option>
+                            <option value="Japan">Japan</option>
+                            <option value="Sri Lanka">Sri Lanka</option>
+                            <option value="Morocco">Morocco</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                    </div>
+                    <div class="button-group">
+                        <button type="submit">Submit</button>
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="contact-info" >
+            <h2>Thank's You For Visiting</h2>
+            <h3>📞 Phone: 9081584475</h3>
+            <h3>📧 Email: romildobariya79@gmail.com</h3>
+            <h3>We will contact you within 24 hours.</h3>
+            <h3>24 / 7 Available Service</h3>
+            <h2>Social media links</h2>
+            <a href="https://www.instagram.com/romil_dobariya__007/" target="_blank" class="social insta-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram Logo">
+                <span>Instagram</span>
+            </a>
+            <a href="https://www.linkedin.com/in/romil-dobariya-72062b375/" target="_blank" class="social linkedin-link">
+                <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="LinkedIn Logo">
+                <span>LinkedIn</span>
+            </a>
+        </section>
+        <br>
+
+        <section class="footer">
+            <h3>© 2026 Royal Tours & travels | All Rights Reserved</h3>
+        </section>
+
+</body>
+</html>
